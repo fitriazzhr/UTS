@@ -4,8 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UTS PROMNET</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <a href="#" class="logo">Fitri Azzahra Hanifatunnisa</a>
+        <div class="container-fluid">
+          <a class="home-brand" href="#home">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
+              <a class="nav-link" href="#work">Work</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+    </nav>
+    </header>
+
+    <section id="home">
+      <div class="homepage">
+        <img src="https://i.pinimg.com/originals/92/4a/23/924a23c67021470cc0895163054649fd.jpg" alt="foto">
+        <p class="home">Hi! I am</p><br>
+        <h3 class="home" style="bold">Fitri Azzahra Hanifatunnisa</h3><br>
+        <p class="home">I am Student in University of Education Indonesia</p><br>
+      </div>
+        <button type="button" class="btn btn-outline-dark"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Resume
+        </button>
+    </section>
+
+    <section id="about">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dignissimos possimus odit commodi quaerat ducimus, cumque voluptates quis reiciendis quo est, fugiat, itaque sapiente vel corrupti neque aut? Accusamus, odio?</p>
+            <h4 style="bold">Editor Jurnal</h4>
+            <p>Integrated (2022-Now)</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <h4 style="bold">Educational Agent</h4>
+            <p>Ruangguru (2023-Now)</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h4 style="bold">Teacher</h4>
+            <p>Elementary School</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </section>
+
+    <section class="work">
+        <div>
+            <p class="p-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deserunt, nulla adipisci exercitationem quam laudantium quas!</p>
+        </div>
+        <div class="img1">   
+            <img src="https://static.republika.co.id/uploads/images/inpicture_slide/0.23676000-1566280774-ruanggurucom_174257_big.jpg.jpeg">
+            <img src="https://2.bp.blogspot.com/-A4SPYGj65hA/WIh91UrvLoI/AAAAAAAAgPk/kobUGa6TWNQrck0Cb-l3s0c_KB0cuJ90gCLcB/s1600/Kelas.PNG">
+            <img src="https://i.pinimg.com/originals/ad/60/b4/ad60b4cdc70a640ec2cbef65da6c80dc.png">
+        </div>
+    </section>
+
+    <section class="contact">
+        <h1>Contact</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolorem obcaecati ea ipsam, quidem porro esse suscipit vitae placeat mollitia.</p>
+        <div class="row-6">
+            <div class="form-container">
+              <h3 class="h3-input">Tell us your problem</h3>
+              <div class="form-input">
+                <form class="form">
+                  <label for="input">Email Address</label>
+                  <input type="text" placeholder="example@gmail.com" />
+                  <div class="underline"></div>
+                </form>
+                <form class="form">
+                  <label for="input">Subject</label>
+                  <input type="text" />
+                  <div class="underline"></div>
+                </form>
+                <form class="form-m">
+                  <label for="input">Message</label>
+                  <input type="text" />
+                  <div class="underline"></div>
+                </form>
+              <div>
+                <center>
+                  <button class="btn-submit" type="submit">Submit</button>
+                </center>
+              </div>
+            </div>
+    </section>
+
+    <script src="main.js"></script>
 </body>
 </html>
