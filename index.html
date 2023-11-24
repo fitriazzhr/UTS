@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&display=swap" rel="stylesheet">
+    <title>My Portofolio | Fitri Azzahra H</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Fitri Azzahra</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <div id="#home">
+        <div class="header-text">
+            <p>Hi! I am</p>
+            <h1>Fitri Azzahra<br>Hanifatunnisa</h1>
+            <p>I am Bachelor of Education</p>
+            <button class="btn">
+                <svg height="20" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
+                    <path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path>
+                </svg>
+                <span class="text">Resume</span>
+            </button>
+        </div>
+    </div>
+
+    <div id="about">
+        <center>
+            <p style="margin-top: 50px;">More Info</p>
+            <img src="img/expand-more.png" alt="expand_more"/>
+        </center>
+        <h1>About</h1>
+        <div class="container">
+                <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus consequatur libero doloribus similique, blanditiis dolorum, quisquam ad ipsum delectus laudantium ducimus aliquam repellat mollitia vitae quod nostrum numquam voluptas, modi officiis iure temporibus incidunt quo! Necessitatibus dicta sunt esse.</p>
+            <div class="row">
+                <div class="about-left">
+                    <h4 style="margin-top: 40px;">Editor Jurnal</h4>
+                    <p>Integrated (2022-Now)</p>
+                    <h4 style="margin-top: 40px;">Educational Agent</h4>
+                    <p>Ruangguru (2023-Now)</p>
+                    <h4 style="margin-top: 40px;">Teacher</h4>
+                    <p>Elementary School (2022-2023)</p>
+                </div>
+                <div class="about-right">
+                    <button class="info">More Info</button>
+                    <button class="info">More Info</button>
+                    <button class="info">More Info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="work">
+        <h1>Work</h1>
+        <div class="container">
+            <div class="row">
+                <div class="work-left">
+                    <p align="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est debitis in odit deleniti sequi sint nostrum explicabo placeat a possimus, dignissimos tenetur cupiditate beatae delectus? Quaerat, aliquid alias? Quia ab accusantium labore aliquam voluptatem voluptate rem delectus! Non fuga rerum labore reprehenderit omnis esse voluptatem, aperiam rem autem illo! Debitis rem minima assumenda ab, quas nobis placeat deleniti nemo provident alias, incidunt unde, dignissimos modi totam earum iusto? Est, distinctio!</p>
+                </div>
+                <div class="work-right">
+                    <img src="img/ruangguru.jpg" alt="Ruangguru">
+                    <div class="sertif">
+                        <img src="img/sertif.png" alt="sertifikat">
+                    </div>
+                </div>
+                <div class="work-end">
+                    <img src="img/teacher.jpg" alt="guru_mengajar">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h1>Contact</h1>
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laborum consectetur nemo! Quis molestias at eius velit nesciunt ipsam debitis, earum adipisci, praesentium quasi expedita fugit quos? Officiis nulla suscipit porro amet itaque iure nemo vero minus, eveniet dolor totam consectetur enim. Voluptatibus sed alias blanditiis ad cumque eius assumenda cupiditate. Ex nobis saepe laborum quisquam error, labore earum voluptatem, nulla sequi neque rerum eius.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/elang.neffryan"><img class="icon" src="img/facebook.png"><p>Fitri Azzahra</p></a>
+                        <a href="https://www.instagram.com/_fitriazzahraa/?hl=en"><img class="icon" src="img/instagram.png"><p>@_fitriazzahraa</p></a>
+                        <a href="https://wa.me/qr/JZZBYHS6UQKRI1"><img class="icon" src="img/whatsapp.png"><p>+62 88220488403</p></a>
+                        <a href="https://github.com/fitriazzhr"><img class="icon" src="img/github.png"><p class="git">@fitriazzhr</p></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="myForm" action="/submit-form" onsubmit="return validateForm()">
+                        <div class="form-container">
+                            <label for="email">Email Address</label>
+                            <input id="nama" type="email" name="Email" placeholder="example@gmail.com" required>
+                            <label for="subjek">Subject</label>
+                            <input id="subject" type="text" name="Subjek" placeholder="Your Subject" required>
+                            <label for="pesan">Message</label>
+                            <textarea id="message" name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button class="btn-submit" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
